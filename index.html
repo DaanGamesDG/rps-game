@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rock Paper Scissors Game</title>
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+
+		<!-- font import -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- css import -->
+		<link rel="stylesheet" href="css/index.css" />
+
+		<!-- js import -->
+		<script defer src="js/index.js"></script>
+	</head>
+	<body>
+		<div class="rps">
+			<div id="selection" class="">
+				<h1 class="rps-title">Choose an option:</h1>
+				<div class="options">
+					<p id="rock">👊 (rock)</p>
+					<p id="paper">🖐 (paper)</p>
+					<p id="scissors">✌ (scissors)</p>
+				</div>
+			</div>
+			<div id="result" class="hidden">
+				<p id="playagain" onclick="reset()">Play Again</p>
+			</div>
+		</div>
+	</body>
+</html>
